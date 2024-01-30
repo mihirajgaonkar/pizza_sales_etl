@@ -4,15 +4,15 @@
 This project involves building an ETL (Extract, Transform, Load) pipeline for near-real-time analysis of pizza sales data. The process begins with CSV data stored locally, which is then imported into SQL Server Management Studio (SMSS). An Azure Data Factory (ADF) pipeline, triggered every 15 minutes, moves the data to Azure Blob Storage. The Integration Runtime service creates a connection between SMSS and Azure Subsequently, the data is mounted into Databricks, where PySpark is utilized to create aggregate tables and transformations. The final step involves connecting Databricks with Power BI for visualization.
 
 **Business Questions Answered**:
-The ETL pipeline aims to address several key business questions related to pizza sales data:
-  Total orders
-  Total pizzas sold
-  Total revenue
-  Pizza sales by month
-  Pizza sales by day
-  Pizza sales by size
-  Pizza sales by category
-  Top 5 pizzas
+The ETL pipeline aims to address several key business questions related to pizza sales data:  
+  Total orders  
+  Total pizzas sold  
+  Total revenue  
+  Pizza sales by month  
+  Pizza sales by day  
+  Pizza sales by size  
+  Pizza sales by category  
+  Top 5 pizzas  
 
 **Databricks Notebook** : [link](https://github.com/mihirajgaonkar/pizza_sales_etl/blob/main/httpsdatabricks-prod-cloudfront.clo.txt) 
 
